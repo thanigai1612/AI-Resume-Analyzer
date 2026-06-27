@@ -1,10 +1,10 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'baseURL: 'https://ai-resume-analyzer-lc35.onrender.com/api',',
-    headers: {
-  'Content-Type': 'application/json',
-},
+  baseURL: 'https://ai-resume-analyzer-lc35.onrender.com/api',
+  headers: {
+    'Content-Type': 'application/json',
+  },
 });
 
 api.interceptors.request.use((config) => {
